@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-size: large;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(pastel_de_nata_bg_i.jpg);
+  font-size: 1.3em;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: double;
+}
+header > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2,
+h3,
+h4 {
+  color: #00b262;
+  text-align: center;
+  font-size: 2.1em;
+}
